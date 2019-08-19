@@ -10,3 +10,10 @@ vault_mail_password: smtp_password
 # Auth information for Delicious Brains private composer repo
 vault_deliciousbrains_user: "deliciousbrains_user"
 vault_deliciousbrains_pass: "deliciousbrains_pass"
+
+# Uncomment to enter Mailgun info
+#vault_wordpress_env_defaults:
+#  MAILGUN_APIKEY: key
+#  MAILGUN_DOMAIN: mg.example.com
+#  MAILGUN_FROM_NAME: Example
+#  MAILGUN_FROM_ADDRESS: webmaster@mg.example.com
