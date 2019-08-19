@@ -37,3 +37,11 @@
   shell: sudo service php7.3-fpm reload
   args:
     warn: false
+
+# Uncomment the following to clear Kinsta cache on deploy.
+# This *will fail* on production if the site is not actually on the production URL.
+#
+#- name: Clear Kinsta cache
+#  uri:
+#    url: '{{ site_env.wp_home }}/kinsta-clear-cache-all/'
+#    method: GET
