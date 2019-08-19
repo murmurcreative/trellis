@@ -6,3 +6,7 @@ vault_mail_password: smtp_password
 #
 # vault_wordpress_env_defaults:
 #   my_api_key: 'available to all environments'
+
+# Auth information for Delicious Brains private composer repo
+vault_deliciousbrains_user: "deliciousbrains_user"
+vault_deliciousbrains_pass: "deliciousbrains_pass"
