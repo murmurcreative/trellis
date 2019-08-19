@@ -7,14 +7,16 @@ users:
     groups:
       - "{{ web_group }}"
     keys:
-      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      - https://github.com/alwaysblank.keys
+      - https://github.com/amy1hwang.keys
+      - https://github.com/Liopia.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
-      - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
-      # - https://github.com/username.keys
+      - https://github.com/alwaysblank.keys
+      - https://github.com/amy1hwang.keys
+      - https://github.com/Liopia.keys
 
 web_user: web
 web_group: www-data
