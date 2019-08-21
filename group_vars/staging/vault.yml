@@ -22,3 +22,6 @@ vault_wordpress_sites:
       secure_auth_salt: "generateme"
       logged_in_salt: "generateme"
       nonce_salt: "generateme"
+#      WP_SENTRY_DSN: 'private_dsn'
+#      WP_SENTRY_PUBLIC_DSN: 'public_dsn'
+#      WP_SENTRY_ENV: 'staging'
